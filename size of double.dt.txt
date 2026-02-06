@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main(){
+    double doubletype;
+    printf("%d\n",sizeof(doubletype));
+    return 0;}

@@ -1,0 +1,16 @@
+include<stdio.h>
+int main() {
+    int a,b,c,d;
+    int temp;
+    scanf("%d %d",&a,&b);
+    temp = a;
+    a = b;
+    temp = b;
+    printf("%d ",a,b);
+    scanf("%d %d",&c,&d);
+    temp = c;
+    c = d;
+    temp = d;
+    printf("%d ",c,d);
+    return 0;
+}

@@ -1,0 +1,5 @@
+#inclue<stdio.h>
+int main(){
+    char chartype;
+    printf("%d\n",sizeof(chartype));
+    return 0;}

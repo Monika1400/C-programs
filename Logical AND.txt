@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+    int a,b,c,d,e,f;
+    scanf("%d %d",&a,&b);
+    printf("%d",a==a,b==b);
+    scanf("%d %d",&c,&d);
+    printf("%d",c==c,d==d);
+    scanf("%d %d",&e,&f);
+    printf("%d",e==e,f==f);
+    return 0;
+}
